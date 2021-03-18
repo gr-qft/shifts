@@ -1,3 +1,3 @@
 # Handling shifts
 
-![addingshifts][shots/shifts.png]
+![addingshifts](shots/shifts.png)
