@@ -67,7 +67,7 @@
   //             ------
   //           ----------
   // Please note for case 3 and 4, containment means possibly touching at the edges also
-  export function shiftsOverlap(shift: IShift, anotherShift: IShift) {
+  function shiftsOverlap(shift: IShift, anotherShift: IShift) {
     return (
       (shift.end > anotherShift.start && shift.end < anotherShift.end) ||
       (shift.start > anotherShift.start && shift.start < anotherShift.end) ||
